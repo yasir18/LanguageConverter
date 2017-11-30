@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:minHeight="88dp"
+    android:background="@color/tan_background">
+    <ImageView
+
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:id="@+id/image"
+        android:src="@mipmap/ic_launcher"
+        android:paddingRight="8dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/textContainer"
+
+        android:paddingLeft="16dp">
+    <TextView
+        android:id="@+id/hindi_textView"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        tools:text="ek"/>
+
+    <TextView
+        android:id="@+id/eng_textView"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        tools:text="one"/>
+    </LinearLayout>
+</LinearLayout>
+    <!-- Layout for a single list item -->
